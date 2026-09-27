@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Science+Gothic:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Science+Gothic:wght@100..900&family=Varela+Round&display=swap');
+
+body {
+    background-color: #0e0237;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Montserrat';
+    background-color: #EDEDED;
+}
+
+nav ul {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 20px;
+    margin-right: 40px;
+}
+
+nav ul li:hover {
+    background-color: #ABDDBA;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.mainContainer {
+    min-height: 70vh;
+    font-family: 'Nunito';
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 70%;
+    background-image: url('Images/bgImage.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.bottom {
+    position: sticky;
+    height: 100px;
+    background-color: #EDEDED;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.progressBar {
+    width: 80vw;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.songItem {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(106, 122, 135, 0.844);
+    gap: 20px;  
+    height: 20px;
+    justify-content: space-between;
+}
+
+.coverImage {
+    width: 30px;
+    border-radius: 50%;
+}
+.songListPlay{
+display: flex;
+align-items: center;
+}
+.songListPlay img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 50px;
+}
+.songlist{
+    padding: 20px;  
+}
+.gif{
+    width: 100px;
+    height: 50px;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+.songInfo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    left: 150px;
+    font-family: 'Nunito';
+}   
